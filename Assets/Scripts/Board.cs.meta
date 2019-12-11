@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: c602dfa77c9da40219a13513434a5596
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lPlayer: {instanceID: 0}
+  - rPlayer: {instanceID: 0}
+  - control: {instanceID: 0}
+  - DefaultTile: {fileID: 559322058879177097, guid: 9da03e6d5abab49a0a4122fc3864acd1,
+      type: 3}
+  - HoleTile: {fileID: 559322058879177097, guid: 61d8ec9559be647189c63040b9bce451,
+      type: 3}
+  - WallTile: {fileID: 559322058879177097, guid: 9abe40a75258b461c8f3e87a072a99df,
+      type: 3}
+  - LavaTile: {fileID: 559322058879177097, guid: 7828cc0ae7c8445879a97579fd8083f5,
+      type: 3}
+  - FlashTile: {fileID: 559322058879177097, guid: a97ec7d8f10d9467ebff31130bd2cb67,
+      type: 3}
+  - leftPointerTile: {instanceID: 0}
+  - rightPointerTile: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

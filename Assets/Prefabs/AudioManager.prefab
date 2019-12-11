@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6177783458500290012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4258696669983622953, guid: d956cd36694494e6ebd06189cbb7fc3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7971946781031457525}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6177783458500290002}
+  - component: {fileID: 6177783458500290013}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6177783458500290002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7971946781031457525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177783458500290012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0620003, y: 4.21, z: -1.0000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6177783458500290013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4258696669983622952, guid: d956cd36694494e6ebd06189cbb7fc3c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7971946781031457525}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6177783458500290012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ecaaae1958f4b4798aea0091bec795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Auto
+    group: SFX
+    clip: {fileID: 8300000, guid: b1ffb436bf0ed405fb494d392984fd0c, type: 3}
+    source: {fileID: 0}
+  - name: Auto2
+    group: SFX
+    clip: {fileID: 8300000, guid: d20afcab334104009a01bd3e808b8c44, type: 3}
+    source: {fileID: 0}
+  - name: Heal
+    group: SFX
+    clip: {fileID: 8300000, guid: 880cf3aa23bb84881b69d6ba23f09650, type: 3}
+    source: {fileID: 0}
+  - name: Toss
+    group: SFX
+    clip: {fileID: 8300000, guid: c05ffed3901f34046be868e930c4888f, type: 3}
+    source: {fileID: 0}
+  - name: Dominance
+    group: SFX
+    clip: {fileID: 8300000, guid: d566bbb75fedd478ba872be7564a884b, type: 3}
+    source: {fileID: 0}
+  - name: TakeDamage
+    group: SFX
+    clip: {fileID: 8300000, guid: 2996ef7889c394bcb95c8659be7d3c72, type: 3}
+    source: {fileID: 0}
+  - name: TakeDamage2
+    group: SFX
+    clip: {fileID: 8300000, guid: 94a39404f268645b29b79f5ac380af9d, type: 3}
+    source: {fileID: 0}
+  - name: Upgrade
+    group: SFX
+    clip: {fileID: 8300000, guid: 8b7b08dcce05f41689f26aa191e50cb6, type: 3}
+    source: {fileID: 0}
+  - name: Upgrade2
+    group: SFX
+    clip: {fileID: 8300000, guid: 478b2972a5dd541528ba661517618857, type: 3}
+    source: {fileID: 0}
+  - name: Burn
+    group: SFX
+    clip: {fileID: 8300000, guid: 2938a3aae31b14b6aa5654b6764b70e2, type: 3}
+    source: {fileID: 0}
+  - name: RoundSong
+    group: Music
+    clip: {fileID: 8300000, guid: c138144a63d82420ba6399f4026162fb, type: 3}
+    source: {fileID: 0}
+  musicGroup: {fileID: -7354356955055628834, guid: 5cf93a7b4144b4e5ab6ed7693b6df764,
+    type: 2}
+  sfxGroup: {fileID: 8033951819457364088, guid: 5cf93a7b4144b4e5ab6ed7693b6df764,
+    type: 2}
+--- !u!1001 &7971946781031457525
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4258696669983622953, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.0620003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622951, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622952, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622952, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: sounds.Array.data[9].name
+      value: Burn
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622952, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: sounds.Array.data[10].name
+      value: RoundSong
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258696669983622952, guid: d956cd36694494e6ebd06189cbb7fc3c,
+        type: 3}
+      propertyPath: sounds.Array.data[10].group
+      value: Music
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d956cd36694494e6ebd06189cbb7fc3c, type: 3}

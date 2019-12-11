@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7947501342803048133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7947501342803048134}
+  - component: {fileID: 7947501342803048135}
+  m_Layer: 0
+  m_Name: GameBoard
+  m_TagString: Board
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7947501342803048134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947501342803048133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7947501342803048135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947501342803048133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c602dfa77c9da40219a13513434a5596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileScale: 1
+  downOffset: 4
+  upOffset: 4
+  leftOffset: 6
+  rightOffset: 6
+  holes: 2
+  walls: 6
+  lPlayer: {fileID: 0}
+  rPlayer: {fileID: 0}
+  lPStartingLoc: {x: -5.5, y: 3.5}
+  rPStartingLoc: {x: 5.5, y: -3.5}
+  control: {fileID: 0}
+  DefaultTile: {fileID: 559322058879177097, guid: 9da03e6d5abab49a0a4122fc3864acd1,
+    type: 3}
+  HoleTile: {fileID: 559322058879177097, guid: 61d8ec9559be647189c63040b9bce451, type: 3}
+  WallTile: {fileID: 559322058879177097, guid: 9abe40a75258b461c8f3e87a072a99df, type: 3}
+  LavaTile: {fileID: 559322058879177097, guid: 7828cc0ae7c8445879a97579fd8083f5, type: 3}
+  FlashTile: {fileID: 559322058879177097, guid: a97ec7d8f10d9467ebff31130bd2cb67,
+    type: 3}
+  StoneTile: {fileID: 559322058879177097, guid: 90c041a3153754f599102e446e74d8c8,
+    type: 3}
+  DirtTile: {fileID: 200985513516835240, guid: 1c9ac353485ca0d48a44685517a89d21, type: 3}
+  MudTile: {fileID: 7309289463934416125, guid: 87f37e0529f45374682ff51f0bc25f69, type: 3}
